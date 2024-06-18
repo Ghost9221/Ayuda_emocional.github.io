@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyo Emocional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Apoyo Emocional</h1>
+    </header>
+    <main>
+        <section id="main-menu">
+            <h2>Bienvenido</h2>
+            <p>Cuando te sientas solo, estamos aquí para escucharte. Haz clic en el botón de abajo para iniciar una conversación con nuestro asistente emocional.</p>
+            <button id="start-chat">Iniciar Chat</button>
+        </section>
+        <section id="chat-section" class="hidden">
+            <div id="chat-box">
+                <div class="message bot-message">
+                    <p>Hola, soy tu asistente emocional. ¿Cómo te sientes hoy?</p>
+                </div>
+            </div>
+            <form id="message-form">
+                <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Apoyo Emocional</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
